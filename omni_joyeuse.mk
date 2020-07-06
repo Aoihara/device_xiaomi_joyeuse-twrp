@@ -15,8 +15,8 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := curtana
-DEVICE_PATH := device/xiaomi/curtana
+PRODUCT_RELEASE_NAME := joyeuse
+DEVICE_PATH := device/xiaomi/joyeuse
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -26,10 +26,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := curtana
-PRODUCT_NAME := omni_curtana
+PRODUCT_DEVICE := joyeuse
+PRODUCT_NAME := omni_joyeuse
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 9S
+PRODUCT_MODEL := Redmi Note 9 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 # HACK: Set vendor patch level
